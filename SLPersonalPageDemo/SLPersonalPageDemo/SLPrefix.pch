@@ -1,0 +1,24 @@
+//
+//  SLPrefix.pch
+//  SLPersonalPageDemo
+//
+//  Created by 盼 on 2017/7/28.
+//  Copyright © 2017年 pan. All rights reserved.
+//
+
+#ifndef SLPrefix_pch
+#define SLPrefix_pch
+
+#ifdef __OBJC__
+
+#import "UIView+Frame.h"
+
+//随机色，用于测试
+#define SLRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif
+
+#endif /* SLPrefix_pch */
